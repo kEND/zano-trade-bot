@@ -6,7 +6,7 @@ import ApplyOrderData from "../../interfaces/fetch-utils/ApplyOrderData";
 import { UserPageData } from "../../interfaces/responses/UserPageData";
 export class FetchUtils {
 
-    static apiPath = env.CUSTOM_SERVER || "https://trade.zano.org";
+    static apiPath = env.CUSTOM_SERVER || "https://api.trade.zano.org";
 
     static async auth({
         address,

@@ -7,7 +7,7 @@ export default class SocketClient {
 
     async initSocket() {
         return new Promise<Socket>((resolve, reject) => {
-            const socket = io(env.CUSTOM_SERVER || "https://trade.zano.org", {
+            const socket = io(env.CUSTOM_SERVER || "https://api.trade.zano.org", {
                 reconnectionAttempts: 10,
                 reconnectionDelay: 2000,
                 timeout: 10000,

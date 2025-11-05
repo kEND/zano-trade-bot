@@ -59,7 +59,7 @@ export const SIMPLEWALLET_PORT = process.env.SIMPLEWALLET_PORT
     ? envToInt(process.env.SIMPLEWALLET_PORT, "SIMPLEWALLET_PORT") 
     : undefined;
 
-export const CUSTOM_SERVER = process.env.CUSTOM_SERVER || "https://trade.zano.org";
+export const CUSTOM_SERVER = process.env.CUSTOM_SERVER || "https://api.trade.zano.org";
 export const API_TOKEN = process.env.API_TOKEN || "";
 
 export const DELETE_ON_START = process.env.DELETE_ON_START === "true";

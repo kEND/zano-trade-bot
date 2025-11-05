@@ -20,7 +20,7 @@ A trading bot for the Zano Trade Dex ([https://trade.zano.org](https://trade.zan
    - The bot requires an `.env` file with the following variables:
 
      ```env
-     CUSTOM_SERVER="https://trade.zano.org"
+     CUSTOM_SERVER="https://api.trade.zano.org"
      API_TOKEN=""
      SIMPLEWALLET_PORT="10500"
      ZANOD_URL="http://37.27.100.59:10500"
@@ -28,7 +28,7 @@ A trading bot for the Zano Trade Dex ([https://trade.zano.org](https://trade.zan
      ```
 
    - Explanation of Variables:
-     - `CUSTOM_SERVER`: URL of the Zano Trade Dex server (default: `https://trade.zano.org`).
+     - `CUSTOM_SERVER`: URL of the Zano Trade Dex server (default: `https://api.trade.zano.org`).
      - `API_TOKEN`: Your API token for authenticating with the trade bot (leave blank if not required).
      - `SIMPLEWALLET_PORT`: The RPC port your wallet is running on.
      - `ZANOD_URL`: URL and port of the Zano daemon (example uses [public node](https://docs.zano.org/docs/build/public-nodes)).
